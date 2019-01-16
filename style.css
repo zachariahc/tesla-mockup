@@ -1,0 +1,355 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+
+
+.center-nav {
+  margin: 0 auto;
+  padding-left: 12.5em;
+}
+
+.navbar-nav > .nav-item > .nav-link {
+  color: white;
+  margin: .25em;
+  font-size: .85em;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.linkmargin {
+  margin-top: .5em;
+}
+
+p {
+  font-weight: 200;
+}
+
+h1 {
+  margin-top: 2em;
+}
+
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+.top-return-p {
+  color: black;
+  margin-top: 27em;
+}
+
+.alternate-return-p {
+  color: white;
+  margin-top: 27em;
+}
+
+.navbar-image {
+  height: .65em;
+  width: 5em;
+  /* margin-top: 20vh; */
+}
+
+.fa-bars {
+  color: white;
+  font-size: 1.25em;
+}
+
+.first-container {
+  margin-top: -10.5vh;
+}
+
+.fa-angle-down {
+  font-size: 2em;
+}
+
+
+.btn-outline-secondary {
+  border-radius: 2.5em;
+  background-color: rgb(50, 50, 50);
+  color: white;
+  font-size: 1em;
+  padding: .5em 4em;
+}
+
+
+
+.btn-outline-secondary:hover {
+  background-color: black;
+}
+
+
+.btn-outline-dark {
+  border-radius: 2.5em;
+  border: 3px solid black;
+  color: black;
+  font-size: 1em;
+  padding: .35em 4.5em;
+}
+
+.btn-outline-dark:hover {
+  background-color: black;
+  border-color: black;
+}
+
+
+#top-red {
+  height: 53em;
+  background-image: url("https://www.tesla.com/ns_videos/homepage/homepage-model3-12032018.jpg?02018018018");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+#second-red {
+  height: 53em;
+  background-image: url("https://www.tesla.com/ns_videos/homepage/homepage-models.jpg?02018018018");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+#third-white {
+  height: 53em;
+  background-image: url("https://www.tesla.com/ns_videos/homepage/homepage-modelx.jpg?02018018018");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+#bottom-house {
+  height: 53em;
+  background-image: url("https://www.tesla.com/ns_videos/homepage/homepage-energy-20181027.jpg?02018018018");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.footer {
+  margin-top: -10vh;
+  text-align: center;
+  padding: .5em .25em .5em;
+}
+
+
+
+.footer > a {
+  color: white;
+  padding: .25em;
+  font-size: .65em;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.footer > span {
+  color: rgb(64, 64, 64);
+}
+
+.am-flag {
+  width: 1em;
+  margin-left: .25em;
+}
+
+
+
+/* Mobile sign up */
+
+/* h6 {
+  color: white;
+  text-align: center;
+} */
+
+/* .form-group {
+  text-align: center;
+} */
+/* #mobile-input {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(50, 50, 50);
+  border: none;
+  border-radius: 50px;
+} */
+
+/* .form-control::placeholder {
+  color: white;
+  font-size: .75em;
+} */
+
+/* .btn-primary {
+  border-radius: 50px;
+  width: 80%;
+} */
+
+/* Mobile images */
+@media only screen and (max-width: 600px) {
+
+  #top-red {
+    height: 53em;
+    background-image: url("images/homepage-model3-12032018--touch@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  #second-red {
+    height: 53em;
+    background-image: url("images/homepage-models--touch@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  #third-white {
+    height: 53em;
+    background-image: url("images/homepage-modelx--touch@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  #bottom-house {
+    height: 53em;
+    background-image: url("images/homepage-energy-20181027--touch@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+}
+
+
+
+
+/* Mobile content */
+
+@media only screen and (max-width: 600px) {
+
+.fa-angle-down {
+    color: white;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+
+  .btn-outline-secondary  {
+    background-color: white;
+    color: black;
+    padding: 7px  100px 5px;
+    margin-top: 28em;
+    border: none;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .top-return-p, .alternate-return-p, .top-return-media {
+    margin-top: 0;
+    color: white;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.media-q-button1 {
+    margin-top: 25em;
+    padding: 7px  75px 5px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.media-q-button2 {
+    margin-top: 0;
+    padding: 5px  95px 3px;
+    border-color: white;
+    margin-top: 1em;
+    color: white;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .mobile-link {
+    color: white;
+  }
+}
+
+/* Beginning of hide and show sign up */
+
+@media only screen and (min-width: 600px) {
+
+  .form-group {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  h6 {
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form-group {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #mobile-input {
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgb(50, 50, 50);
+    border: none;
+    border-radius: 50px;
+    color: white;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .form-control::placeholder {
+    color: rgb(153, 153, 153);
+    font-size: .75em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-primary {
+    border-radius: 50px;
+    margin-top: 1em;
+    width: 85%;
+  }
+}
+
+/* Footer */
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    margin-top: 3em;
+  }
+}
